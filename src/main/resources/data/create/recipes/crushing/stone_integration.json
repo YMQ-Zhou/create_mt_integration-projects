@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "materials_integration:stone_integration"
+    }
+  ],
+  "processingTime": 125,
+  "results": [
+    {
+      "item": "materials_integration:sand_integration"
+    },
+    {
+      "chance": 0.125,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

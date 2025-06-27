@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "materials_integration:log_integration"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count":6,
+      "item": "materials_integration:planks_integration"
+    }
+  ]
+}
