@@ -1,0 +1,51 @@
+{
+  "conditions":[
+    {
+      "type":"create:sifting",
+      "modid": "createsifter"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "materials_integration:sand_integration"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.1,
+      "item": "create:crushed_raw_copper"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.05,
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:flint"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
