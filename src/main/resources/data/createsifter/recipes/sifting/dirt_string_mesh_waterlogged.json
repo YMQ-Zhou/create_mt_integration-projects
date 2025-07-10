@@ -1,16 +1,15 @@
 {
-  "conditions":[
-    {
-      "type":"create:sifting",
-      "modid": "createsifter"
-    }
-  ],
+  "conditions": {
+    "type": "forge:mod_loaded",
+    "modid": "createsifter"
+  },
+  "type": "createsifter:sifting",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "materials_integration:dirt_integration"
     },
     {
-      "item": "materials_integration:dirt_integration"
+      "item": "createsifter:string_mesh"
     }
   ],
   "processingTime": 500,
