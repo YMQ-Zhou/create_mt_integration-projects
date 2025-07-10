@@ -1,8 +1,10 @@
 {
-  "conditions": {
-    "type": "forge:mod_loaded",
-    "modid": "createsifter"
-  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createsifter"
+    }
+  ],
   "type": "createsifter:sifting",
   "ingredients": [
     {
