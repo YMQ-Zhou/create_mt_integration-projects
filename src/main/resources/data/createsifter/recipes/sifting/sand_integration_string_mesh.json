@@ -1,0 +1,39 @@
+{
+  "conditions": {
+    "type": "forge:mod_loaded",
+    "modid": "createsifter"
+  },
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "materials_integration:sand_integration"
+    },
+    {
+      "item": "createsifter:string_mesh"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.25,
+      "count": 2,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 0.4,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "chance": 0.2,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
