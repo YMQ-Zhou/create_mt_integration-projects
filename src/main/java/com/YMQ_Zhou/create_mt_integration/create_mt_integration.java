@@ -36,6 +36,7 @@ public class create_mt_integration
     public static final String MODID = "create_mt_integration";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+/*
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
@@ -124,4 +125,6 @@ public class create_mt_integration
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
+
+ */
 }
